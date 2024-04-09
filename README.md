@@ -48,8 +48,11 @@ You can install `pycryptodome` using pip:
 
 pip install pycryptodome
 
-How to Run
+```
 
+
+How to Run
+```bash
     Ensure Python 3.x is installed on your system.
 
     Install the pycryptodome package.
@@ -61,4 +64,4 @@ How to Run
     bash
 
     python path/to/script.py
-
+```
