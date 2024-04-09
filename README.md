@@ -1,7 +1,3 @@
-# EncHell
-Demo implementation of Diffie Hellman key exchange with KDF and AES encryption
-
-
 # Diffie-Hellman Key Exchange and AES Encryption Demo
 
 
