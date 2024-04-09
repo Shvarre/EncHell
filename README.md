@@ -18,7 +18,14 @@ This project is a demonstration of the Diffie-Hellman Key Exchange algorithm and
 
 - Error handling for encryption and decryption processes.
 
+## GUI Overview
 
+    Diffie-Hellman Key Exchange Section: Allows users to enter private numbers for Alice and Bob, select a prime number, and compute public and shared keys.
+    AES Encryption/Decryption Section: Users can input a shared key, generate IV, input text for encryption or decryption, and view the output.
+
+## Note
+
+This project is intended for educational purposes and should not be used for securing sensitive data in a production environment.
 
 ## Dependencies
 
@@ -54,11 +61,3 @@ How to Run
 
     python path/to/script.py
 
-GUI Overview
-
-    Diffie-Hellman Key Exchange Section: Allows users to enter private numbers for Alice and Bob, select a prime number, and compute public and shared keys.
-    AES Encryption/Decryption Section: Users can input a shared key, generate IV, input text for encryption or decryption, and view the output.
-
-Note
-
-This project is intended for educational purposes and should not be used for securing sensitive data in a production environment.
