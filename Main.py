@@ -52,7 +52,8 @@ def generate_primes(limit):
         n += 1
     return primes
 
-# First 50 prime numbers
+# First 50 prime numbers - change to whatever number of primes you want in the dropdown.
+# Note: With a great prime number, comes a great waiting time
 primesList = generate_primes(50)
 
 def initialize_aes(key, iv):
