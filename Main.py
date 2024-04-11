@@ -70,7 +70,7 @@ def aes_encrypt():
     """Encrypts the text in aes_input_text and displays the result in aes_output_text."""
     try:
         shared_key_str = shared_key_entry.get()
-        salt_str = "some_fixed_salt"
+        salt_str = salt_entry.get()  # Get salt from the GUI
         key = get_aes_key(shared_key_str, salt_str)
 
         # Convert IV from hex to bytes
@@ -91,8 +91,8 @@ def aes_encrypt():
 def aes_decrypt():
     """Decrypts the text in aes_input_text and displays the result in aes_output_text."""
     try:
-        shared_key_str = shared_key_entry.get()
-        salt_str = "some_fixed_salt"
+        shared_key_str = shared_key_entry.get()        
+        salt_str = salt_entry.get()  # Get salt from the GUI
         key = get_aes_key(shared_key_str, salt_str)
 
         # Convert IV from hex to bytes
